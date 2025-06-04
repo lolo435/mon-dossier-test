@@ -135,7 +135,7 @@ h1 {
 footer {
     height: 15%;
     background: #cba15d;
-  text-align: center;
+    text-align: center;
 }
 
 .apropos {
@@ -150,7 +150,7 @@ footer {
     height: 90%;
     padding: 2rem;
     width: 100%;
-    
+
 }
 
 .photo-section {
@@ -191,5 +191,100 @@ footer {
 
 .about-footer {
     height: 35px;
-   
+}
+
+/* Style de la page Patisserie */
+
+.cake-body {
+    height: 100%;
+    width: 100%;
+    background-image: url(image/background-cake.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cake-main {
+    background: #4b4b4b47;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.cake-section-vide {
+
+    height: auto;
+    width: 33%;
+}
+
+.cake-section-text {
+
+    height: 100%;
+    width: 41%;
+}
+
+.cake-title {
+    margin: 100px;
+    color: #6214d6;
+}
+
+.cake-text {
+    text-align: center;
+    font-size: 30px;
+
+    padding: 50px;
+
+}
+
+.cake-section-image {
+
+    height: auto;
+    width: 26%;
+    margin-left: -10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
+}
+
+.cookies-body {
+    /* background-color: grey; */
+    background-image: url(image/background-cookies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cookies-text-grid {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.cookies-text {
+    /* border: 2px solid red; */
+    width: 800px;
+    font-size: 40px;
+    place-self: center;
+    text-align: center;
+}
+
+.cookies-grid {
+    /* border: 2px solid yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1FR 1FR 1FR;
+    place-items: center;
+    width: 800px;
+    height: 650px;
+    justify-self: flex-end;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+
+.cookies-grid img {
+    height: 140px;
+    width: 150px;
+
 }

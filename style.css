@@ -289,32 +289,106 @@ footer {
 }
 
 .galery-body main {
-    height: auto;
+
     width: 100%;
 }
 
 .galery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
     width: 100%;
-    /* height: auto; */
-    display: flex;
-    padding: 40px;
+
+    justify-self: flex-end;
+    margin-right: 10px;
+    margin-left: 100px;
+    padding: 80px;
     flex-wrap: wrap;
 }
 
 .galery-grid div {
-    
-   
-    background: #000;
-    
-    border: 1px solid red;
+    display: flex;
+
 }
 
 .galery-grid div img {
-    
-    
-     width: 250px;
-    
+    margin-bottom: 40px;
+    height: 280px;
+    width: 400px;
+}
 
-   
-   }
-   
+.contact-body {
+    background: #f3b7d5;
+    
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    margin: 100px;
+}
+
+.right {
+    margin: 100px;
+
+}
+
+.contact-horaires {
+    font-size: 25px;
+    text-align: center;
+    width: 400px;
+    margin: 100px;
+}
+
+.contact-reseaux {
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-nous {
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.contact-formulaire {
+    align-items: center;
+}
+
+.contact-information {
+    align-items: center;
+    margin: 20px;
+    place-items: anchor-center;
+}
+
+input {
+    width: 90%;
+    margin: 10px;
+}
+
+.contact-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-group label {
+    width: 200px;
+    font-weight: bold;
+    padding-right: 15px;
+    width: 325px;
+}
+
+textarea {
+    width: 240px;
+    height: 100px;
+}
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
